@@ -24,6 +24,7 @@ const Skills = () => {
       logo: <IoLogoJavascript />,
       level: "JavaScript",
       count: 70,
+      rent:200,
     },
     {
       logo: <SiTypescript />,
