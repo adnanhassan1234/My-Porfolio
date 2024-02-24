@@ -7,7 +7,7 @@ const Skills = () => {
   const skills = [
     {
       logo: <FaHtml5 />,
-      level: "HTML5555",
+      level: "HTML5",
       count: 90,
     },
     {
@@ -24,7 +24,6 @@ const Skills = () => {
       logo: <IoLogoJavascript />,
       level: "JavaScript",
       count: 70,
-      rent:200,
     },
     {
       logo: <SiTypescript />,
