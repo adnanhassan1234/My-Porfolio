@@ -60,6 +60,7 @@ textarea {
 .portfolios img {
   height: 230px;
   width: 100%;
+  /* object-fit: contain; */
 }
 @media screen and (max-width: 639px) {
   .slick-slide img {
@@ -74,11 +75,91 @@ textarea {
     height: 230px;
   }
 }
-@media screen and (max-width: 569px) {
-  .swiper-horizontal > .swiper-pagination-bullets,
-  .swiper-pagination-bullets.swiper-pagination-horizontal,
-  .swiper-pagination-custom,
-  .swiper-pagination-fraction {
-    bottom: 3px !important;
+
+/* projects_details css */
+
+.projects_details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+@media screen and (max-width: 967px) {
+  .projects_details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .projects_details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+  #about .title {
+    text-align: left;
+    word-spacing: 3px;
+  }
+  #hireme .title {
+    text-align: left;
+    word-spacing: 3px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .margin__left {
+    flex-direction: column;
+  }
+}
+/* paginationActive css */
+.paginationActive {
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button,
+[role="button"] {
+  cursor: pointer;
+  /* margin: 18px !important; */
+}
+.paginationBttns {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 36px;
+}
+.paginationBttns li {
+  margin: 8px;
+  height: 23px;
+}
+
+.pageItem {
+  margin: 0 12px;
+}
+
+.previousBttn,
+.nextBttn {
+  margin: 0 5px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paginationDisabled {
+  color: #ccc;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 412px) {
+  .paginationBttns {
+    font-size: 14px;
+  }
+  .paginationBttns li {
+    margin: 5px;
+    height: 23px;
   }
 }

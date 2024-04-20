@@ -14,7 +14,7 @@ const Hireme = () => {
           <h2 className="text-2xl font-semibold">
             Do you want any work from me?
           </h2>
-          <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
+          <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6 title">
             If you are seeking a frontend developer who is not only proficient
             in established technologies but also committed to maintaining
             quality, adopting new tech trends, and meeting deadlines, I am ready

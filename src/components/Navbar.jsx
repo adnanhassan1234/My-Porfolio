@@ -34,9 +34,9 @@ const Navbar = () => {
         <div
           className={` ${
             sticky
-              ? "md:bg-red bg-white text-white transition ease-in duration-700"
-              : "bg-transparent"
-          } text-gray-900 md:block hidden px-7 py-2 font-medium  rounded-bl-full`}
+              ? "md:bg-red bg-white text-gray-900 transition ease-in duration-700"
+              : "bg-white"
+          } text-gray-900 md:block hidden  px-7 py-2 font-medium  rounded-bl-full`}
         >
           <ul className="flex items-center gap-1 py-2 text-lg">
             {menuLinks?.map((menu, i) => (
@@ -45,7 +45,7 @@ const Navbar = () => {
                 className={`${
                   sticky
                     ? "text-black px-6 hover:text-cyan-600 "
-                    : "px-6 hover:text-cyan-600 text-white transition transition-property: all transition-duration: 150ms"
+                    : "px-6 hover:text-cyan-600 text-gray-900 transition transition-property: all transition-duration: 150ms"
                 }`}
               >
                 <a href={menu?.link}>{menu?.name}</a>
