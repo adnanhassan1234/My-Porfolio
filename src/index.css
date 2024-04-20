@@ -87,7 +87,7 @@ textarea {
   .projects_details {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 26px;
   }
 }
 @media screen and (max-width: 667px) {
