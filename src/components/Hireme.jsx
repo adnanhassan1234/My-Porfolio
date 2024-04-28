@@ -9,7 +9,7 @@ const Hireme = () => {
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Do you have any work?</p>
       </div>
-      <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center text-center">
+      <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center text-center 2sm:px-5">
         <div className="m-auto">
           <h2 className="text-2xl font-semibold text-center">
             Do you want any work from me?
