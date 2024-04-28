@@ -91,6 +91,9 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
     gap: 26px;
   }
+  .hire_text{
+    text-align: center !important;
+  }
 }
 @media screen and (max-width: 667px) {
   .projects_details {

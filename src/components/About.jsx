@@ -8,11 +8,11 @@ const About = () => {
   ];
   return (
     <section id="about" className="py-10 text-white">
-      <div className="text-center mt-8">
+      <div className="text-center mt-8 2sm:mt-0">
         <h3 className="text-4xl font-semibold">
           About <span className="text-cyan-600">Me</span>
         </h3>
-        <p className="text-gray-400 my-3 text-lg pb-12">My introduction</p>
+        <p className="text-gray-400 my-3 text-lg pb-12 ">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto 2sm:px-6">
           <div className="p-2 2sm:p-1">
             <div className="text-gray-300 my-3">

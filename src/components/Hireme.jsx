@@ -14,7 +14,7 @@ const Hireme = () => {
           <h2 className="text-2xl font-semibold text-center">
             Do you want any work from me?
           </h2>
-          <p className="p-3 text-sm mt-4 text-gray-200 leading-6 title text-center">
+          <p className="p-3 text-sm mt-4 text-gray-200 leading-6 title hire_text text-center 2sm:text-center">
             If you are seeking a frontend developer who is not only proficient
             in established technologies but also committed to maintaining
             quality, adopting new tech trends, and meeting deadlines, I am ready
@@ -23,9 +23,7 @@ const Hireme = () => {
           </p>{" "}
           <center>
             {" "}
-            <button className="btn-primary  text-center mt-6">
-              Say Hello
-            </button>
+            <button className="btn-primary  text-center mt-6">Say Hello</button>
           </center>
         </div>
         {/* <img
