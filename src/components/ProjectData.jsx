@@ -27,6 +27,8 @@ import snippet_booking from "../assets/images/Projects/snippet_booking.jpeg";
 import snippet_payment from "../assets/images/Projects/snippet_paypal.jpeg";
 import cloudware from "../assets/images/Projects/cloud_ware.png";
 import cloudware2 from "../assets/images/Projects/cloud_ware2.png";
+import wallet from "../assets/images/Projects/wallet_dashboard.png";
+import wallet_login from "../assets/images/Projects/wallet_login.png";
 const ProjectData = [
   {
     img: dispatch,
@@ -121,6 +123,8 @@ const ProjectData = [
     github_link:
       "https://github.com/adnanhassan1234/React-Multimart-Ecommerce-",
     live_link: "https://melodic-lamington-2c3c56.netlify.app/",
+    Project_des:
+      "Multimart E-commerce Website is a cutting-edge online shopping platform that provides users with a seamless and intuitive shopping experience with a user-friendly interface, the website offers a diverse range of products, ensuring customers can easily find and purchase their desired items. This Website offers a comprehensive and user-centric platform for online shopping. With Firebase authentication providing a secure login process, advanced filtering options for a personalized experience, and a streamlined checkout process.",
     technologies: [
       "HTML5",
       "css",
@@ -140,13 +144,16 @@ const ProjectData = [
     live_link: "https://crystalmaple.netlify.app/ ",
     technologies: ["HTML5", "css", "Bootstrap", "JavaScript"],
     images: [crystal, crystal],
-    Project_des: "",
+    Project_des:
+      "Welcome to the Crystal Maple Business website, your gateway to a world of innovation and success. At Crystal Maple, we specialize in providing cutting-edge solutions for businesses seeking growth, efficiency, and sustainability. At Crystal Maple, we pride ourselves on a commitment to quality that is reflected in every pixel of our design. The color palette is a harmonious blend of crystal-clear tones, creating a soothing and inviting atmosphere. The website's responsiveness ensures a flawless display on any device, allowing you to immerse yourself in the world of Crystal Maple from the comfort of your choice.",
   },
   {
     img: openAdvisor,
     name: "openAdvisor",
     github_link: "https://github.com/adnanhassan1234/openAdvisor",
     live_link: "https://openadvisor.netlify.app/",
+    Project_des:
+      " At Opendvisor, we connect you with experienced strategic advisors who provide tailored insights to navigate the complexities of business and decision-making. Whether you're a startup seeking guidance or an established company looking to refine your strategy. Our platform connects you with the right advisors to drive your success. Discover a world of strategic possibilities with Opendvisor where expertise meets opportunity.",
     technologies: [
       "HTML5",
       "css",
@@ -159,13 +166,32 @@ const ProjectData = [
     Project_des: "",
   },
   {
+    img: wallet,
+    name: "Wallet dashboard",
+    github_link: "https://github.com/adnanhassan1234/React-wallet-dashboard",
+    live_link: "https://violett-spadsoft.netlify.app/",
+    Project_des:
+      "Introducing our Wallet Dashboard, a comprehensive tool featuring intuitive charts, graphs, and visually appealing chat designs. With informative cards providing key insights, stay informed and in control of your financial data like never before.",
+    technologies: [
+      "HTML5",
+      "css",
+      "React-Bootstrap",
+      "React Js",
+      "JavaScript",
+      "Axios",
+    ],
+    images: [wallet, wallet_login],
+    Project_des: "",
+  },
+  {
     img: real_estate,
     name: "Real_estate property",
     github_link: "https://github.com/adnanhassan1234/Real_Estate_Property",
     live_link: "https://delightful-bubblegum-22fb9b.netlify.app/   ",
     technologies: ["HTML5", "css", "Bootstrap", "JavaScript"],
     images: [real_estate, esatet2],
-    Project_des: "",
+    Project_des:
+      "Discover your dream home with our sleek and intuitive real estate property website design. Navigating the world of real estate has never been this seamless browse through listings effortlessly, explore detailed property information, and find the perfect space to call your own. Our user-friendly interface ensures a hassle-free experience, making your journey to homeownership enjoyable and stress-free.",
   },
   {
     img: social_app,
@@ -181,7 +207,8 @@ const ProjectData = [
       "Axios",
     ],
     images: [social_app, social_app],
-    Project_des: "",
+    Project_des:
+      "This is a Social Facebook App the ultimate platform for connecting with friends, sharing moments, user like and comments on post and staying in the loop! Our sleek and intuitive design ensures a seamless user experience, allowing you to effortlessly navigate through a world of updates and connections.",
   },
   {
     img: prizeManner,
@@ -197,7 +224,8 @@ const ProjectData = [
       "Axios",
     ],
     images: [prizeManner, prizeManner_login],
-    Project_des: "",
+    Project_des:
+      "PrizeMinner is a dynamic website dedicated to celebrating and showcasing prize winners across various domains. From assets recognition to individual accomplishments, the platform highlights the triumphs of winners. Users can explore an extensive collection of videos, songs, and more, adding to the vibrant community of achievers. Stay updated on the growing count of winners and be inspired by their success stories.",
   },
   {
     img: piecreMaker,
@@ -213,16 +241,19 @@ const ProjectData = [
       "Axios",
     ],
     images: [piecreMaker, piecreMaker_login],
-    Project_des: "",
+    Project_des:
+      " Peace Maker Dashboard is a user-friendly website designed for efficient management of table-related data while ensuring secure access through robust login authentication. This intuitive dashboard provides a seamless experience for users to interact with and organize data. The Peace Maker Dashboard facilitates seamless data entry and editing capabilities. Users can input new data, update existing records, and maintain the accuracy of the information stored within the tables.",
   },
   {
     img: medical2,
     name: "Medical",
     github_link: "https://github.com/adnanhassan1234/Medical",
-    live_link: "https://630ef2fa6c785550ae34fe6a--chipper-daffodil-12eae1.netlify.app/",
+    live_link:
+      "https://630ef2fa6c785550ae34fe6a--chipper-daffodil-12eae1.netlify.app/",
     technologies: ["HTML5", "css", "Bootstrap", "JavaScript"],
     images: [medical2, medical],
-    Project_des: "",
+    Project_des:
+      "Discover a seamless healthcare experience with our intuitively designed medical website. Easily find the right doctor, schedule appointments effortlessly, and access valuable health resources—all in one place. Your journey to wellness begins with user-friendly navigation and a modern interface that prioritizes your health needs. Trust in technology to simplify your healthcare interactions, connecting you with the right professionals for personalized care.",
   },
   {
     img: london_cab,
@@ -231,7 +262,8 @@ const ProjectData = [
     live_link: "https://londonairportcabs.com/",
     technologies: ["HTML5", "css", "JavaScript"],
     images: [london_cab, london_cab],
-    Project_des: "",
+    Project_des:
+      "Experience London Cab Service, your reliable transportation solution in the heart of the city. With prompt pickups, courteous drivers, and competitive rates, we ensure a seamless journey every time you ride with us.",
   },
   {
     img: cloudware,
