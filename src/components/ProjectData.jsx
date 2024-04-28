@@ -135,7 +135,6 @@ const ProjectData = [
       "Axios",
     ],
     images: [multimart, multimart2],
-    Project_des: "",
   },
   {
     img: crystal,
@@ -163,7 +162,6 @@ const ProjectData = [
       "Axios",
     ],
     images: [openAdvisor, openAdvisor],
-    Project_des: "",
   },
   {
     img: wallet,
@@ -181,7 +179,6 @@ const ProjectData = [
       "Axios",
     ],
     images: [wallet, wallet_login],
-    Project_des: "",
   },
   {
     img: real_estate,
