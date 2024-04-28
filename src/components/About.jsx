@@ -12,11 +12,11 @@ const About = () => {
         <h3 className="text-4xl font-semibold">
           About <span className="text-cyan-600">Me</span>
         </h3>
-        <p className="text-gray-400 my-3 text-lg">My introduction</p>
+        <p className="text-gray-400 my-3 text-lg pb-12">My introduction</p>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto 2sm:px-6">
           <div className="p-2 2sm:p-1">
             <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 w-11/12 mx-auto  title">
+              <p className="text-left  w-[95%] leading-7  mx-auto  title">
                 Hello, I'm Adnan Hassan, a proficient Computer Science graduate
                 with 2 years of professional expertise, specializes in crafting
                 cutting-edge frontend applications. Leveraging advanced
