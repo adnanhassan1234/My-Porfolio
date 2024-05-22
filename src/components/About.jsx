@@ -1,5 +1,6 @@
 import React from "react";
 import aboutImg from "../assets/images/hassan.png";
+import resume from "../assets/Adnan_hassan_2024.pdf";
 const About = () => {
   const info = [
     { text: "Years experience", count: "02" },
@@ -37,10 +38,7 @@ const About = () => {
               </div>
               <br />
               <br />
-              <a
-                href="/src/assets/Adnan_hassan_2024.pdf"
-                download="Adnan_hassan_2024.pdf"
-              >
+              <a href={resume} download="Adnan_hassan_2024.pdf">
                 <button className="btn-primary">Download Resume</button>
               </a>
             </div>
