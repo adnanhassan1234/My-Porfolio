@@ -7,7 +7,7 @@ const Project = () => {
   const [show, setShow] = useState(false);
   const [selectedData, setSelectedData] = useState({});
   const [pageNumber, setPageNumber] = useState(0);
-  const projectsPerPage = 9;
+  const projectsPerPage = 12;
   const pagesVisited = pageNumber * projectsPerPage;
 
   const selectedFunction = (item) => {
