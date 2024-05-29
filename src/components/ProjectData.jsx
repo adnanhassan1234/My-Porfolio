@@ -33,7 +33,7 @@ const ProjectData = [
   {
     img: dispatch,
     name: "Pelickan Despatch",
-    github_link: "",
+    github_link: "https://github.com/adnanhassan1234/Pelickan-Dispatch",
     Project_des:
       "Managing an admin project involving driver, vehicle and booking system, including document uploads and verification. Utilizing React JS and Redux-Saga for seamless operations. Features encompass pickup and drop location verification, vehicle tracking on map.",
     live_link: "https://admin.test.pelickandespatch.com:8443/",
