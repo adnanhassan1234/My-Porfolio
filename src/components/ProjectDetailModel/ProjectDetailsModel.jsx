@@ -62,6 +62,16 @@ const ProjectDetailsModel = (props) => {
               className="text-black p-3"
               dangerouslySetInnerHTML={{ __html: selectedData?.Project_des }}
             />
+            {selectedData?.email && (
+              <h5 className="text-black font-semibold technology mx-3">
+                Email: {selectedData.email}
+              </h5>
+            )}
+            {selectedData?.password && (
+              <h5 className="text-black font-semibold technology mx-3">
+                Password: {selectedData.password}
+              </h5>
+            )}
 
             <div className="mb-1 p-3">
               <p className="text-gray-600">Technologies Used:</p>

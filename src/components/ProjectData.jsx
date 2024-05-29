@@ -46,6 +46,8 @@ const ProjectData = [
       "CSS",
       "Axios",
     ],
+    email: "superadmin@vultture.com",
+    password: "Qmh@2025",
     images: [dispatch, dispatch_login],
   },
   {
@@ -115,6 +117,8 @@ const ProjectData = [
       "JavaScript",
       "Axios",
     ],
+    email: "admin@convrtx.com",
+    password: "query123",
     images: [goWild, goWild_sub, goWild_login],
   },
   {
@@ -220,6 +224,8 @@ const ProjectData = [
       "JavaScript",
       "Axios",
     ],
+    email: "admin@convrtx.com",
+    password: "query123",
     images: [prizeManner, prizeManner_login],
     Project_des:
       "PrizeMinner is a dynamic website dedicated to celebrating and showcasing prize winners across various domains. From assets recognition to individual accomplishments, the platform highlights the triumphs of winners. Users can explore an extensive collection of videos, songs, and more, adding to the vibrant community of achievers. Stay updated on the growing count of winners and be inspired by their success stories.",
