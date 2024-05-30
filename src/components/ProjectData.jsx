@@ -198,7 +198,7 @@ const ProjectData = [
     img: social_app,
     name: "Facebook Social app",
     github_link: "https://github.com/adnanhassan1234/React-social-app",
-    live_link: "https://visionary-centaur-8bcee9.netlify.app/",
+    live_link: "https://react-social-app-six.vercel.app/",
     technologies: [
       "HTML5",
       "css",
