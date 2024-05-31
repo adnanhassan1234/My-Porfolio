@@ -38,11 +38,11 @@ const Project = () => {
     <section id="projects" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl font-semibold">
-          My
+          My{" "}
           <span className="text-cyan-600">
-            Projects
+            Projects{" "}
             <span className="mb-3" style={{ fontSize: "25px" }}>
-              {ProjectData?.length}
+              ({ProjectData?.length})
             </span>{" "}
           </span>
         </h3>
@@ -88,6 +88,7 @@ const Project = () => {
               </div>
             )
           )}
+          
         </div>
       </div>
       <ReactPaginate
