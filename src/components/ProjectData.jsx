@@ -29,13 +29,13 @@ import cloudware from "../assets/images/Projects/cloud_ware.png";
 import cloudware2 from "../assets/images/Projects/cloud_ware2.png";
 import wallet from "../assets/images/Projects/wallet_dashboard.png";
 import wallet_login from "../assets/images/Projects/wallet_login.png";
-// import food_main from "../assets/images/Projects/main_food.png";
-// import food1 from "../assets/images/Projects/furst_food.png";
-// import food2 from "../assets/images/Projects/second_food.png";
-// import food3 from "../assets/images/Projects/cart_food.png";
+import food_main from "../assets/images/Projects/main_food.png";
+import food1 from "../assets/images/Projects/furst_food.jpg";
+import food2 from "../assets/images/Projects/second_food.jpg";
+import food3 from "../assets/images/Projects/cart_food.png";
 import ebivas from "../assets/images/Projects/ebivas_main.jpg";
-// import ebivas1 from "../assets/images/Projects/ebivas_second.png";
-// import ebivas2 from "../assets/images/Projects/service_ebivas.png";
+import ebivas1 from "../assets/images/Projects/ebivas_second.jpg";
+import ebivas2 from "../assets/images/Projects/service_ebivas.jpg";
 const ProjectData = [
   {
     img: dispatch,
@@ -174,25 +174,25 @@ const ProjectData = [
     ],
     images: [openAdvisor, openAdvisor],
   },
-  // {
-  //   img: food_main,
-  //   name: "Food devilery app",
-  //   github_link: "https://github.com/adnanhassan1234/food-delivery-app",
-  //   live_link: "https://food-delivery-ecommerce-app.netlify.app/",
+  {
+    img: food_main,
+    name: "Food devilery app",
+    github_link: "https://github.com/adnanhassan1234/food-delivery-app",
+    live_link: "https://food-delivery-ecommerce-app.netlify.app/",
 
-  //   technologies: [
-  //     "React Js",
-  //     "JavaScript",
-  //     "HTML5",
-  //     "CSS",
-  //     "React-Bootstrap",
-  //     "Redux-toolkit",
-  //     "Axios",
-  //   ],
-  //   images: [food_main, , food1, food2, food3],
-  //   Project_des:
-  //     "This app provides a modern and user-friendly solution for pizza delivery. It allows users to choose their favorite pizza, customize it, and place an order for home delivery. With features like adding items to the cart, filtering options, and modifying orders, along with real-time. this app ensures a seamless and convenient experience for users.",
-  // },
+    technologies: [
+      "React Js",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "React-Bootstrap",
+      "Redux-toolkit",
+      "Axios",
+    ],
+    images: [food_main, , food1, food2, food3],
+    Project_des:
+      "This app provides a modern and user-friendly solution for pizza delivery. It allows users to choose their favorite pizza, customize it, and place an order for home delivery. With features like adding items to the cart, filtering options, and modifying orders, along with real-time. this app ensures a seamless and convenient experience for users.",
+  },
   {
     img: wallet,
     name: "Wallet dashboard",
@@ -320,7 +320,7 @@ const ProjectData = [
       "This project offers a comprehensive travel and cab booking service. Users can easily plan their trips, book flights and hotels, and arrange for cab services all within a single platform. With features like real-time availability, secure payment options, and customizable itineraries, this app ensures a seamless and convenient travel experience for users.",
     live_link: "https://cloudware.netlify.app/",
     technologies: ["HTML5", "BOOSTRAP5", "CSS", "JavaScript"],
-    images: [ebivas, ebivas, ebivas],
+    images: [ebivas, ebivas1, ebivas2],
   },
 ];
 export default ProjectData;
