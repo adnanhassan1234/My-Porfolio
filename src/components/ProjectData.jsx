@@ -30,7 +30,7 @@ import cloudware2 from "../assets/images/Projects/cloud_ware2.png";
 import wallet from "../assets/images/Projects/wallet_dashboard.png";
 import wallet_login from "../assets/images/Projects/wallet_login.png";
 import food_main from "../assets/images/Projects/main_food.png";
-import food1 from "../assets/images/Projects/1st_food.png";
+import food1 from "../assets/images/Projects/furst_food.png";
 import food2 from "../assets/images/Projects/second_food.png";
 import food3 from "../assets/images/Projects/cart_food.png";
 import ebivas from "../assets/images/Projects/ebivas_main.png";
