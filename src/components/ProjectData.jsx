@@ -33,9 +33,9 @@ import wallet_login from "../assets/images/Projects/wallet_login.png";
 // import food1 from "../assets/images/Projects/furst_food.png";
 // import food2 from "../assets/images/Projects/second_food.png";
 // import food3 from "../assets/images/Projects/cart_food.png";
-// import ebivas from "../assets/images/Projects/ebivas_main.png";
-// import ebivas1 from "../assets/images/Projects/ebivas_second.png";
-// import ebivas2 from "../assets/images/Projects/service_ebivas.png";
+import ebivas from "../assets/images/Projects/ebivas_main.png";
+import ebivas1 from "../assets/images/Projects/ebivas_second.png";
+import ebivas2 from "../assets/images/Projects/service_ebivas.png";
 const ProjectData = [
   {
     img: dispatch,
@@ -312,15 +312,15 @@ const ProjectData = [
     ],
     images: [cloudware, cloudware2],
   },
-  // {
-  //   img: ebivas,
-  //   name: "Ebivas",
-  //   github_link: "",
-  //   Project_des:
-  //     "This project offers a comprehensive travel and cab booking service. Users can easily plan their trips, book flights and hotels, and arrange for cab services all within a single platform. With features like real-time availability, secure payment options, and customizable itineraries, this app ensures a seamless and convenient travel experience for users.",
-  //   live_link: "https://cloudware.netlify.app/",
-  //   technologies: ["HTML5", "BOOSTRAP5", "CSS", "JavaScript"],
-  //   images: [ebivas, ebivas1, ebivas2],
-  // },
+  {
+    img: ebivas,
+    name: "Ebivas",
+    github_link: "",
+    Project_des:
+      "This project offers a comprehensive travel and cab booking service. Users can easily plan their trips, book flights and hotels, and arrange for cab services all within a single platform. With features like real-time availability, secure payment options, and customizable itineraries, this app ensures a seamless and convenient travel experience for users.",
+    live_link: "https://cloudware.netlify.app/",
+    technologies: ["HTML5", "BOOSTRAP5", "CSS", "JavaScript"],
+    images: [ebivas, ebivas1, ebivas2],
+  },
 ];
 export default ProjectData;
