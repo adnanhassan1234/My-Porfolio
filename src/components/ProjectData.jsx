@@ -29,6 +29,13 @@ import cloudware from "../assets/images/Projects/cloud_ware.png";
 import cloudware2 from "../assets/images/Projects/cloud_ware2.png";
 import wallet from "../assets/images/Projects/wallet_dashboard.png";
 import wallet_login from "../assets/images/Projects/wallet_login.png";
+// import food_main from "../assets/images/Projects/main_food.png";
+// import food1 from "../assets/images/Projects/furst_food.png";
+// import food2 from "../assets/images/Projects/second_food.png";
+// import food3 from "../assets/images/Projects/cart_food.png";
+// import ebivas from "../assets/images/Projects/ebivas_main.png";
+// import ebivas1 from "../assets/images/Projects/ebivas_second.png";
+// import ebivas2 from "../assets/images/Projects/service_ebivas.png";
 const ProjectData = [
   {
     img: dispatch,
@@ -111,7 +118,7 @@ const ProjectData = [
     live_link: "https://dreamy-cobbler-06ced2.netlify.app/",
     technologies: [
       "HTML5",
-      "css",
+      "CSS",
       "React-Bootstrap",
       "React Js",
       "JavaScript",
@@ -131,7 +138,7 @@ const ProjectData = [
       "Multimart E-commerce Website is a cutting-edge online shopping platform that provides users with a seamless and intuitive shopping experience with a user-friendly interface, the website offers a diverse range of products, ensuring customers can easily find and purchase their desired items. This Website offers a comprehensive and user-centric platform for online shopping. With Firebase authentication providing a secure login process, advanced filtering options for a personalized experience, and a streamlined checkout process.",
     technologies: [
       "HTML5",
-      "css",
+      "CSS",
       "React-Bootstrap",
       "React Js",
       "Fire-base",
@@ -145,7 +152,7 @@ const ProjectData = [
     name: "Crystal Map",
     github_link: "https://github.com/adnanhassan1234/Crystal-Maple-Business",
     live_link: "https://crystalmaple.netlify.app/ ",
-    technologies: ["HTML5", "css", "Bootstrap", "JavaScript"],
+    technologies: ["HTML5", "CSS", "Bootstrap", "JavaScript"],
     images: [crystal, crystal],
     Project_des:
       "Welcome to the Crystal Maple Business website, your gateway to a world of innovation and success. At Crystal Maple, we specialize in providing cutting-edge solutions for businesses seeking growth, efficiency, and sustainability. At Crystal Maple, we pride ourselves on a commitment to quality that is reflected in every pixel of our design. The color palette is a harmonious blend of crystal-clear tones, creating a soothing and inviting atmosphere. The website's responsiveness ensures a flawless display on any device, allowing you to immerse yourself in the world of Crystal Maple from the comfort of your choice.",
@@ -167,6 +174,25 @@ const ProjectData = [
     ],
     images: [openAdvisor, openAdvisor],
   },
+  // {
+  //   img: food_main,
+  //   name: "Food devilery app",
+  //   github_link: "https://github.com/adnanhassan1234/food-delivery-app",
+  //   live_link: "https://food-delivery-ecommerce-app.netlify.app/",
+
+  //   technologies: [
+  //     "React Js",
+  //     "JavaScript",
+  //     "HTML5",
+  //     "CSS",
+  //     "React-Bootstrap",
+  //     "Redux-toolkit",
+  //     "Axios",
+  //   ],
+  //   images: [food_main, , food1, food2, food3],
+  //   Project_des:
+  //     "This app provides a modern and user-friendly solution for pizza delivery. It allows users to choose their favorite pizza, customize it, and place an order for home delivery. With features like adding items to the cart, filtering options, and modifying orders, along with real-time. this app ensures a seamless and convenient experience for users.",
+  // },
   {
     img: wallet,
     name: "Wallet dashboard",
@@ -184,9 +210,10 @@ const ProjectData = [
     ],
     images: [wallet, wallet_login],
   },
+
   {
     img: real_estate,
-    name: "Real_estate property",
+    name: "Real estate property",
     github_link: "https://github.com/adnanhassan1234/Real_Estate_Property",
     live_link: "https://delightful-bubblegum-22fb9b.netlify.app/   ",
     technologies: ["HTML5", "CSS", "Bootstrap", "JavaScript"],
@@ -198,10 +225,10 @@ const ProjectData = [
     img: social_app,
     name: "Facebook Social app",
     github_link: "https://github.com/adnanhassan1234/React-social-app",
-    live_link: "https://visionary-centaur-8bcee9.netlify.app/",
+    live_link: "https://react-social-app-six.vercel.app/",
     technologies: [
       "HTML5",
-      "css",
+      "CSS",
       "React-Bootstrap",
       "React Js",
       "JavaScript",
@@ -218,7 +245,7 @@ const ProjectData = [
     live_link: "https://web.prizeminer.appscorridor.com/",
     technologies: [
       "HTML5",
-      "css",
+      "CSS",
       "React-Bootstrap",
       "React Js",
       "JavaScript",
@@ -237,7 +264,7 @@ const ProjectData = [
     live_link: "https://piecemaker.netlify.app/",
     technologies: [
       "HTML5",
-      "css",
+      "CSS",
       "React-Bootstrap",
       "React Js",
       "JavaScript",
@@ -253,7 +280,7 @@ const ProjectData = [
     github_link: "https://github.com/adnanhassan1234/Medical",
     live_link:
       "https://630ef2fa6c785550ae34fe6a--chipper-daffodil-12eae1.netlify.app/",
-    technologies: ["HTML5", "css", "Bootstrap", "JavaScript"],
+    technologies: ["HTML5", "CSS", "Bootstrap", "JavaScript"],
     images: [medical2, medical],
     Project_des:
       "Discover a seamless healthcare experience with our intuitively designed medical website. Easily find the right doctor, schedule appointments effortlessly, and access valuable health resources—all in one place. Your journey to wellness begins with user-friendly navigation and a modern interface that prioritizes your health needs. Trust in technology to simplify your healthcare interactions, connecting you with the right professionals for personalized care.",
@@ -263,7 +290,7 @@ const ProjectData = [
     name: "London Cab Service",
     github_link: "#",
     live_link: "https://londonairportcabs.com/",
-    technologies: ["HTML5", "css", "JavaScript"],
+    technologies: ["HTML5", "CSS", "JavaScript"],
     images: [london_cab, london_cab],
     Project_des:
       "Experience London Cab Service, your reliable transportation solution in the heart of the city. With prompt pickups, courteous drivers, and competitive rates, we ensure a seamless journey every time you ride with us.",
@@ -285,5 +312,15 @@ const ProjectData = [
     ],
     images: [cloudware, cloudware2],
   },
+  // {
+  //   img: ebivas,
+  //   name: "Ebivas",
+  //   github_link: "",
+  //   Project_des:
+  //     "This project offers a comprehensive travel and cab booking service. Users can easily plan their trips, book flights and hotels, and arrange for cab services all within a single platform. With features like real-time availability, secure payment options, and customizable itineraries, this app ensures a seamless and convenient travel experience for users.",
+  //   live_link: "https://cloudware.netlify.app/",
+  //   technologies: ["HTML5", "BOOSTRAP5", "CSS", "JavaScript"],
+  //   images: [ebivas, ebivas1, ebivas2],
+  // },
 ];
 export default ProjectData;
