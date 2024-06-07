@@ -318,7 +318,7 @@ const ProjectData = [
     github_link: "",
     Project_des:
       "This project offers a comprehensive travel and cab booking service. Users can easily plan their trips, book flights and hotels, and arrange for cab services all within a single platform. With features like real-time availability, secure payment options, and customizable itineraries, this app ensures a seamless and convenient travel experience for users.",
-    live_link: "https://curious-frangipane-e88d5d.netlify.app/",
+    live_link: "https://ebivas.com",
     technologies: ["HTML5", "BOOSTRAP5", "CSS", "JavaScript"],
     images: [ebivas, ebivas1, ebivas2],
   },
