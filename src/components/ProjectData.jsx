@@ -36,6 +36,10 @@ import food3 from "../assets/images/Projects/cart_food.jpg";
 import ebivas from "../assets/images/Projects/ebivas_main.jpg";
 import ebivas1 from "../assets/images/Projects/ebivas_second.jpg";
 import ebivas2 from "../assets/images/Projects/service_ebivas.jpg";
+import tamaMain from "../assets/images/Projects/tamadress_main.png";
+import tama1 from "../assets/images/Projects/tama2.png";
+import tama2 from "../assets/images/Projects/tama3.png";
+import tama3 from "../assets/images/Projects/tama4.png";
 const ProjectData = [
   {
     img: dispatch,
@@ -60,7 +64,7 @@ const ProjectData = [
   {
     img: dispatch_snippet,
     name: "Pelickan Serach-Snippet",
-    github_link: "#",
+    github_link: "https://github.com/adnanhassan1234/pelickan-search-snippet",
     Project_des:
       "Revolutionizing travel booking, our platform allows users to search and select their starting and destination addresses, specify one-way or return trips, and choose passenger count. Secure payments via Stripe or PayPal ensure a hassle-free experience.",
     live_link: "https://snippet.stag.pelickandespatch.com:8443/ ",
@@ -127,6 +131,23 @@ const ProjectData = [
     email: "admin@convrtx.com",
     password: "query123",
     images: [goWild, goWild_sub, goWild_login],
+  },
+  {
+    img: tamaMain,
+    name: "Tamadress Ecommerce",
+    github_link: "",
+    live_link: "https://tamadres.com/",
+    Project_des:
+      "Tamadress is an e-commerce platform designed for users to browse, purchase products, and explore a wide range of items including books, clothing, accessories, and more. The project focuses on providing a seamless shopping experience with features such as product search, category-based filtering, user reviews, and a secure checkout process",
+    technologies: [
+      "HTML5",
+      "CSS",
+      "Next Js",
+      "JavaScript",
+      "Axios",
+      "Magento2 api",
+    ],
+    images: [tamaMain, tama1, tama2, tama3],
   },
   {
     img: multimart,
